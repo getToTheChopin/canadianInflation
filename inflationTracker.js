@@ -225,8 +225,9 @@ function initializeVisualization(dates, items) {
             backgroundColor: '#000000',
             fill: false,
             borderWidth: 1,
-            borderDash: [5, 5],
-            tension: 0
+            //borderDash: [5, 5],
+            tension: 0,
+            radius: 2,
         });
 
         // Update table header
